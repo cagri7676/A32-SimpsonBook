@@ -3,7 +3,7 @@ package com.atilsamancioglu.simpsonbook.Model;
 import java.io.Serializable;
 
 public class Simpson implements Serializable {
-
+//Simpson classından oluşturduğumuz nesneleri aynen aktarmak için sınıfı Serializable'ye extend et.
     private String name;
     private String job;
     private int pictureInteger;
