@@ -8,6 +8,7 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
+//Bu birnyazjjshsjsjsjsj
 
 import com.atilsamancioglu.simpsonbook.Model.Simpson;
 import com.atilsamancioglu.simpsonbook.R;
