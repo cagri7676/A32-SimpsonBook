@@ -14,7 +14,7 @@ import com.atilsamancioglu.simpsonbook.Model.Simpson;
 import com.atilsamancioglu.simpsonbook.R;
 
 import java.util.ArrayList;
-
+//Bu bir nottur...💀
 public class CustomAdapter extends ArrayAdapter<Simpson> {
 
     private ArrayList<Simpson> simpsons;
