@@ -31,7 +31,11 @@ public class CustomAdapter extends ArrayAdapter<Simpson> {
     private Activity context;
 
     public CustomAdapter(ArrayList<Simpson> simpsons, Activity context) {
-        // udemy de super'e neden custom view falan yazdığımıza bak.
+     /*İDE bize  bir constructor var diyor ve bu constructor aynı zamanda super ile bir üst 
+     sınıfa bağlanacak liste nasıl bir dizaynda görünsün soruyor ve bunun içinde bir xml dosyası istiyor.
+     Bir context ve bir de arraylist istiyor,bunları super ile yolluyor...
+     */
+
         super(context, R.layout.custom_view,simpsons);
         this.simpsons = simpsons;
         this.context = context;
