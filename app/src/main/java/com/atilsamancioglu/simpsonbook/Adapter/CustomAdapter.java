@@ -23,7 +23,7 @@ public class CustomAdapter extends ArrayAdapter<Simpson> {
  Biz belki uygulamamızın farklı aktivitelerinde farklı farklı listelerde farklı şeyleri listeleyeceğiz
  Farklı custom adapterler farklı contexlerde çalışacağından biz burda context'i constructor'a yazıyoruz
  biz bunu yazmasak da çalışır ama custom adapteri kullanacağımız activity de contexti alacaktık
- bu da kod fazlalığına sebep olurdu...*/
+ bu da kod fazlalığına sebep olurdu */
    
 
 
@@ -33,7 +33,8 @@ public class CustomAdapter extends ArrayAdapter<Simpson> {
     public CustomAdapter(ArrayList<Simpson> simpsons, Activity context) {
      /*İDE bize  bir constructor var diyor ve bu constructor aynı zamanda super ile bir üst 
      sınıfa bağlanacak liste nasıl bir dizaynda görünsün soruyor ve bunun içinde bir xml dosyası istiyor.
-     Bir context ve bir de arraylist istiyor,bunları super ile yolluyor...
+     Bir context ve bir de arraylist istiyor,bunları super ile yolluyor.Super'a daha önceden yaptığımız xml 
+     dosyasını contexti ve arraylist'i gönderiyoruz.
      */
 
         super(context, R.layout.custom_view,simpsons);
